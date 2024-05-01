@@ -18,11 +18,14 @@ public class PeriodTest01 {
         Period p3 = Period.ofWeeks(58);  // semanas
         Period p4 = Period.ofMonths(5);  // meses
         Period p5 = Period.ofYears(3);  // anos
+
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);
         System.out.println(p4);
         System.out.println(p5);
+        System.out.println(p3.getMonths());
+        System.out.println(Period.between(LocalDate.now(), LocalDate.now().plusDays(p3.getDays())).getMonths());
 
 
     }
