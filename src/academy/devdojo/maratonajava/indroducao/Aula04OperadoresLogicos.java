@@ -24,7 +24,7 @@ public class Aula04OperadoresLogicos {
         boolean isCompravel = valorTotContaC >= valorVideogame || valorTotContaP >=valorVideogame;
         System.out.println("O videogame é compravel? " + isCompravel);
 
-        // Operadores de Atribuição
+
 
     }
 }
